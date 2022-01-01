@@ -6,6 +6,7 @@ const addVarriation = (id) => {
   const subDiv = document.createElement("div");
   const newDiv = `<div id="varriation_div">
   <div id="layer_container" class="container layer_div p-3 w-75 mt-3 rounded">
+  <h5 style="text-align: center;">Varriation ${btnCount -1}</h5>
     <div class="display_flex_style">
       <div>
         <label for="layer_img" class="btn btn-danger">Layer 1</label>
