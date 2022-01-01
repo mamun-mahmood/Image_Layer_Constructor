@@ -10,3 +10,11 @@
 .layer_div {
     border: 1px solid grey;
 }
+.display_flex_style {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+/* input[type="file"] {
+    display: none;
+} */
