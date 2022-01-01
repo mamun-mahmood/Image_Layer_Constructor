@@ -1,0 +1,12 @@
+* {
+    margin: 0;
+}
+.main_div {
+    margin-top: 50px;
+}
+.top_div {
+    text-align: center;
+}
+.layer_div {
+    border: 1px solid grey;
+}
