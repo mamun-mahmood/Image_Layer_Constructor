@@ -6,10 +6,10 @@ const addVarriation = (id) => {
   const subDiv = document.createElement("div");
   const newDiv = `<div id="varriation_div">
   <div id="layer_container${btnCount -1}" class="container layer_div p-3 w-75 mt-3 rounded">
-  <h5 style="text-align: center;">Varriation ${btnCount -1}</h5>
+  <h5 style="text-align: center;">Layer ${btnCount -1}</h5>
     <div class="display_flex_style">
       <div>
-        <label for="layer_img" class="btn btn-danger">Layer 1</label>
+        <label for="layer_img" class="btn btn-danger">Varriation 1</label>
       </div>
       <div>
         <img
@@ -39,7 +39,7 @@ const addLayer = (id) => {
   const subDiv = document.createElement("div");
   const newDiv = `<div class="display_flex_style">
   <div>
-    <label for="layer_img${layerCount}" class="btn btn-danger">Layer ${layerCount}</label>
+    <label for="layer_img${layerCount}" class="btn btn-danger">Varriation ${layerCount}</label>
   </div>
   <div>
     <img
@@ -51,3 +51,6 @@ const addLayer = (id) => {
   subDiv.innerHTML = newDiv;
   mainDiv.appendChild(subDiv);
 };
+document.getElementById('add_layer').addEventListener('click', () => {
+  document.getElementById('varriation_btn_div').style.display = 'block'
+})
