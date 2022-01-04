@@ -9,7 +9,7 @@ const addVarriation = (id) => {
   <h5 style="text-align: center;">Layer ${btnCount -1}</h5>
     <div class="display_flex_style">
       <div>
-        <label for="layer_img" class="btn btn-danger">Varriation 1</label>
+        <label for="layer_img" class="btn btn-danger">Add Varriation 1</label>
       </div>
       <div>
         <img
@@ -25,7 +25,7 @@ const addVarriation = (id) => {
       onclick="addVarriation('varriation_btn${btnCount}')"
       class="btn btn-info m-3"
     >
-      Add Varriation
+      Add Layer
     </button>
   </div>
 </div>`;
@@ -39,7 +39,7 @@ const addLayer = (id) => {
   const subDiv = document.createElement("div");
   const newDiv = `<div class="display_flex_style">
   <div>
-    <label for="layer_img${layerCount}" class="btn btn-danger">Varriation ${layerCount}</label>
+    <label for="layer_img${layerCount}" class="btn btn-danger">Add Varriation ${layerCount}</label>
   </div>
   <div>
     <img
