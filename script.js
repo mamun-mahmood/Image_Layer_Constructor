@@ -48,6 +48,7 @@ const addLayer = (id) => {
 </div>`;
   subDiv.innerHTML = newDiv;
   mainDiv.appendChild(subDiv);
+  document.getElementById("submit_btn").style.display = "block";
 };
 document.getElementById("add_layer").addEventListener("click", () => {
   document.getElementById("varriation_btn_div").style.display = "block";
